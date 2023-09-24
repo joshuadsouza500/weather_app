@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    font-family: 'Oswald',sans-serif; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 5;
+    justify-content: center;
+    align-items: center; 
+    background-image: url('images/bg.jpg');
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+    font-weight: 400;
+}
+header{
+padding: 15px;
+margin: 3px auto ;
+color: white;
+font-size: 25px;
+}
+.searchbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.btn{
+    padding: 4px;
+    border-radius: 5px;
+    border-color: rgba(245, 245, 245, 0.315);
+    background-color: rgba(245, 245, 245, 0.788);
+    cursor: pointer;
+}
+#searchbar{
+    width: 60%;
+    border-style: none;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.425);
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+width: 400px;
+height: 400px;
+background-color: rgba(0, 0, 0, 0.575);
+border-radius: 2%;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-weight:400;
+    margin-top: 1%;
+    color: white;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 3%;
+}
+.mid{
+    border-left-color: rgba(0, 0, 0, 0.808);
+    border-style: solid;
+    border-width: 0 0 0 0.2rem;
+    border-radius: 1%;
+    
+}
+.pic{
+    align-self: center;
+    padding: 4px;
+}
+.cityname{
+    font-size: 50px;
+    padding-bottom: 12px;
+}
+.temp{
+    font-size: 30px;
+}
+.right{
+    padding-top: 20px;
+
+}
+.right h3{
+    padding: 3px;
+}
